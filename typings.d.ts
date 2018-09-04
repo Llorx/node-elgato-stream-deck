@@ -15,7 +15,7 @@ interface SharpOptions {
 }
 
 declare class StreamDeck {
-	readonly ICON_SIZE: number;
+	static readonly ICON_SIZE: number;
 
 	static checkRGBValue(value: number): void;
 	static checkValidKeyIndex(keyIndex: number): void;
